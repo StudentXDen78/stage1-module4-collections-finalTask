@@ -9,7 +9,6 @@ public class DeveloperProjectFinder {
             if (e.getValue().contains(developer)) projectList.add(e.getKey());
         }
         Collections.sort(projectList);
-        // Collections.reverse(projectList);
         return projectList;
     }
 
