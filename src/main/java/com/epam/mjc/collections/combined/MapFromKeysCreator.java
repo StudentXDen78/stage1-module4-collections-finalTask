@@ -15,6 +15,7 @@ public class MapFromKeysCreator {
                 }
             }
             resultMap.put(e.length(), keySetResult);
+            resultMap.clear();
         }
 
         return resultMap;
